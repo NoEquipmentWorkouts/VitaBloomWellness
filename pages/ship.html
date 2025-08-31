@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shipping & Delivery – VitaBloom™</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #fdfbf9;
+      color: #444;
+      line-height: 1.7;
+      font-size: 18px;
+      padding: 80px 20px 40px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    header.navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #fdfbf9;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      padding: 16px 0;
+      z-index: 1000;
+    }
+
+    .nav-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 40px;
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 40px;
+    }
+
+    h1, h2 {
+      font-family: 'Playfair Display', serif;
+      color: #d4a7a0;
+    }
+
+    a {
+      color: #d4a7a0;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      color: #8a9b8f;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Fixed Top Menu -->
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="../index.html">
+          <img src="../logo/logo.jpg" alt="VitaBloom Logo" />
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <h1>Shipping & Delivery</h1>
+
+    <h2>Processing</h2>
+    <p>All VitaBloom™ bottles are hand-packed in small batches. Please allow 3–5 business days for processing your order.</p>
+
+    <h2>Delivery Time</h2>
+    <p>Once shipped, delivery takes 3–7 business days within the United States.</p>
+
+    <h2>International Orders</h2>
+    <p>We currently ship only within the United States. We hope to expand globally in 2025.</p>
+
+    <h2>Packaging</h2>
+    <p>Your VitaBloom arrives in compostable packaging, with each bottle wrapped in a soft silk pouch — because every detail should feel intentional and kind to the earth.</p>
+  </div>
+
+  <!-- ✅ FOOTER – FULLY NAVIGABLE -->
+  <footer class="vita-footer">
+    <div class="footer-container">
+      <p>&copy; 2025 VitaBloom Wellness. Crafted with care.</p>
+      <div class="footer-links">
+        <a href="../index.html" class="footer-link">Home</a>
+        <a href="./contact.html" class="footer-link">Contact</a>
+        <a href="./ship.html" class="footer-link">Shipping</a>
+        <a href="./privacy.html" class="footer-link">Privacy</a>
+      </div>
+    </div>
+  </footer>
+
+  <style>
+    .vita-footer {
+      background-color: #f9f7f5;
+      border-top: 1px solid #eae3e0;
+      padding: 24px 0;
+      margin-top: 60px;
+      font-family: 'Inter', sans-serif;
+      color: #5a5451;
+      font-size: 0.95rem;
+    }
+
+    .footer-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 24px;
+    }
+
+    .footer-link {
+      color: #5a5451;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    .footer-link:hover {
+      color: #d4a7a0;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      .footer-container {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+
+  <!-- Responsive Layout Fix – No Design Changes -->
+  <style>
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+    }
+    .container {
+      flex: 1;
+    }
+    footer.vita-footer {
+      margin-top: auto;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 0 16px;
+      }
+      .footer-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 12px;
+      }
+      .footer-links {
+        justify-content: center;
+      }
+    }
+  </style>
+
+</body>
+</html>

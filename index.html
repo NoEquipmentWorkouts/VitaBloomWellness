@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VitaBloom™ – The 1,000 Women Founders Circle</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700&display=swap" rel="stylesheet">
+
+  <!-- Fixed Navbar Inline CSS -->
+  <style>
+    /* === FIXED TOP MENU – NEVER MOVES === */
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #fdfbf9;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+      z-index: 1000;
+      padding: 16px 0;
+      transition: background 0.3s ease;
+    }
+
+    .nav-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 40px;
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 40px;
+      width: auto;
+      transition: transform 0.3s ease;
+    }
+
+    .logo img:hover {
+      transform: scale(1.03);
+    }
+
+    /* Push content below navbar */
+    body {
+      padding-top: 80px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Fixed Top Menu -->
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <img src="logo/logo.jpg" alt="VitaBloom Logo" />
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <h1>VitaBloom™</h1>
+        <p>The <span id="spots">950</span> Women Founders Circle</p>
+        <p class="tagline">A chemist-crafted ritual for radiant skin, stronger hair & lasting vitality</p>
+        <a href="#join" class="btn btn-primary">RESERVE YOUR INVITE</a>
+        <p class="fine-print">Early access. No payment now.</p>
+      </div>
+      <div class="hero-image">
+        <img 
+          src="hero/VitaBloom.png" 
+          alt="VitaBloom Bottle in Silk Pouch – Premium Natural Supplement"
+        />
+        <div class="badges">
+          <span>✨ By Invitation Only</span>
+          <span>🧪 Women’s Wellness Chemist Formulated</span>
+          <span>🌱 Whole-Food Science</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+
+    <div class="divider">🌿</div>
+
+    <!-- Founder's Note -->
+    <section class="founder">
+      <h2>Why I Created This</h2>
+      <p>Hi, I’m Dr. Elena Reed — a women’s wellness chemist with 15 years of experience. After seeing so many supplements full of fillers and fake claims, I created <strong>VitaBloom</strong>: a clean, cold-processed blend of 5 powerful nuts and seeds — to support real, lasting radiance from within.</p>
+      <p>This isn’t mass-produced. It’s made for <strong>1,000 women</strong> who value real science, slow wellness, and deep nourishment.</p>
+    </section>
+
+    <!-- Benefits -->
+    <section class="benefits">
+      <h2>Designed to Support</h2>
+      <ul>
+        <li>Silky hair & glowing skin</li>
+        <li>Natural body fat balance</li>
+        <li>Steady, all-day energy</li>
+        <li>Hormonal rhythm & monthly comfort</li>
+        <li>Mood & emotional balance</li>
+        <li>Long-term cellular wellness</li>
+      </ul>
+    </section>
+
+    <div class="divider">🌿</div>
+
+    <!-- Pricing -->
+    <section id="pricing" class="pricing">
+      <div class="content-area">
+        <h2>Your Founder’s Supply</h2>
+        <p class="intro">Each bottle is hand-packed with care — in recyclable glass, wrapped in a soft silk pouch, and shipped in compostable packaging.</p>
+
+        <div class="pricing-cards">
+          <!-- Single Bottle -->
+          <div class="card">
+            <img 
+              src="images/1bottleViteBloom.png" 
+              alt="VitaBloom 1-Month Supply – Glass Jar in Silk Pouch" 
+              class="product-image"
+            />
+            <h3>1-Month Supply</h3>
+            <div class="price">$105</div>
+            <ul class="details">
+              <li>30-day bottle</li>
+              <li>Recyclable glass jar</li>
+              <li>Silk keepsake pouch</li>
+              <li>Compostable packaging</li>
+              <li>Free shipping</li>
+            </ul>
+            <a href="#join" class="btn btn-outline">RESERVE FOR $105</a>
+          </div>
+
+          <!-- 3 Bottles -->
+          <div class="card featured">
+            <div class="label">Most Chosen</div>
+            <img 
+              src="images/3bottlesvatabloom.png" 
+              alt="VitaBloom 3-Month Supply – Three Bottles with Silk Pouches" 
+              class="product-image"
+            />
+            <h3>3-Month Supply</h3>
+            <div class="price">
+              <span class="original">$315</span> $250
+            </div>
+            <div class="save">Save $65</div>
+            <ul class="details">
+              <li>3 bottles (90-day supply)</li>
+              <li>One silk pouch per bottle</li>
+              <li>Premium recyclable packaging</li>
+              <li>Express shipping</li>
+              <li>Founder’s Wellness Guide (digital)</li>
+            </ul>
+            <a href="#join" class="btn btn-primary">RESERVE FOR $250</a>
+          </div>
+        </div>
+
+        <p class="note">*Only available to members of the Founders Circle.</p>
+      </div>
+    </section>
+
+    <div class="divider">🌿</div>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+      <div class="content-area">
+        <h2>Voices from the Circle</h2>
+        <blockquote>
+          <p>“This is the only supplement that actually works. My skin is softer, my hair is thicker, and I feel lighter somehow.”</p>
+          <cite>— Jessica T., 34</cite>
+        </blockquote>
+        <blockquote>
+          <p>“I take it every morning. No more 3 PM crash. My nails don’t chip, and my skin glows even on tired days.”</p>
+          <cite>— Lena R., 41</cite>
+        </blockquote>
+        <blockquote>
+          <p>“As a chemist, I appreciate that this isn’t synthetic junk. It’s real food. That matters.”</p>
+          <cite>— Dr. Amara K., 38</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- Join Form -->
+    <section id="join" class="waitlist">
+      <div class="content-area">
+        <div class="form-card">
+          <h2>Join the Founders Circle</h2>
+          <p class="join-intro-line1">Be among the first to receive your bottle</p>
+          <p class="join-intro-line2">and exclusive access to the science behind the glow.</p>
+          
+          <form id="waitlist-form">
+            <input type="email" placeholder="Email" required />
+            <input type="text" placeholder="Name" required />
+          </form>
+
+          <button type="submit" class="btn btn-primary centered-btn">SEND MY INVITE</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+      <div class="content-area">
+        <h2>Frequently Asked</h2>
+
+        <div class="item">
+          <h3>Q: Is this a free product?<span>+</span></h3>
+          <p>A: No. This is an early access list. You’ll be invited to purchase when your batch opens.</p>
+        </div>
+
+        <div class="item">
+          <h3>Q: How long until I see results?<span>+</span></h3>
+          <p>A: Most women notice energy and skin glow in 2–4 weeks. For hair and balance, we recommend 6–8 weeks of consistent use.</p>
+        </div>
+
+        <div class="item">
+          <h3>Q: Can I take this with other supplements?<span>+</span></h3>
+          <p>A: Yes! Just avoid other high-selenium products.</p>
+        </div>
+
+        <div class="item">
+          <h3>Q: Is it safe during pregnancy?<span>+</span></h3>
+          <p>A: Please consult your healthcare provider.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+      <div class="content-area">
+        <p>Your glow begins here.</p>
+        <a href="#join" class="btn btn-primary">RESERVE YOUR INVITE</a>
+        <p class="small">Only 1,000 women will ever receive VitaBloom.</p>
+      </div>
+    </section>
+
+    <div class="divider">🌿</div>
+
+  </div> <!-- End .container -->
+
+  <!-- ✅ FOOTER -->
+  <footer class="vita-footer">
+    <div class="footer-container">
+      <p>&copy; 2025 VitaBloom Wellness. Crafted with care.</p>
+      <div class="footer-links">
+        <a href="index.html" class="footer-link">Home</a>
+        <a href="pages/contact.html" class="footer-link">Contact</a>
+        <a href="pages/shipping.html" class="footer-link">Shipping</a>
+        <a href="pages/privacy.html" class="footer-link">Privacy</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Responsive Layout Fix -->
+  <style>
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+    }
+    .container {
+      flex: 1;
+    }
+    footer.vita-footer {
+      margin-top: auto;
+    }
+
+    @media (max-width: 768px) {
+      .hero-container {
+        flex-direction: column;
+        text-align: center;
+      }
+      .hero-content {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      .hero-image {
+        width: 100%;
+        text-align: center;
+      }
+      .hero-image img {
+        max-width: 280px;
+      }
+      .pricing-cards {
+        flex-direction: column;
+        align-items: center;
+      }
+      .card {
+        width: 100%;
+        max-width: 400px;
+        margin: 12px 0;
+      }
+      .footer-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 12px;
+      }
+      .footer-links {
+        justify-content: center;
+      }
+      .container {
+        padding: 0 16px;
+      }
+    }
+  </style>
+
+  <!-- === VITA BLOOM COUNTDOWN SCRIPT === -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const MIN_SAFE = 682;
+      const START_MIN = 827;
+      const START_MAX = 999;
+      const MIN_INTERVAL = 30000;
+      const MAX_INTERVAL = 45000;
+
+      const spotsElement = document.getElementById('spots');
+      if (!spotsElement) {
+        console.warn("Countdown element #spots not found.");
+        return;
+      }
+
+      function randomBetween(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+      }
+
+      function loadState() {
+        try {
+          const saved = localStorage.getItem('vitabloom_count');
+          if (saved) return JSON.parse(saved);
+        } catch (e) {
+          console.warn("Could not read localStorage.", e);
+        }
+        return null;
+      }
+
+      function saveState(state) {
+        try {
+          localStorage.setItem('vitabloom_count', JSON.stringify(state));
+        } catch (e) {
+          console.warn("Could not save to localStorage.", e);
+        }
+      }
+
+      let state = loadState();
+
+      if (!state || typeof state.count !== 'number' || state.count < MIN_SAFE) {
+        state = {
+          count: randomBetween(START_MIN, START_MAX),
+          nextDrop: Date.now() + randomBetween(MIN_INTERVAL, MAX_INTERVAL)
+        };
+        saveState(state);
+      }
+
+      if (state.count <= MIN_SAFE) {
+        state.count = MIN_SAFE;
+        spotsElement.textContent = MIN_SAFE;
+        return;
+      }
+
+      spotsElement.textContent = state.count;
+
+      function scheduleNextDrop() {
+        if (state.count <= MIN_SAFE) return;
+
+        const now = Date.now();
+        const delay = Math.max(state.nextDrop - now, 0);
+
+        setTimeout(() => {
+          if (state.count > MIN_SAFE) {
+            state.count -= 1;
+            state.nextDrop = now + randomBetween(MIN_INTERVAL, MAX_INTERVAL);
+            spotsElement.textContent = state.count;
+            saveState(state);
+          }
+          if (state.count > MIN_SAFE) {
+            scheduleNextDrop();
+          }
+        }, delay);
+      }
+
+      scheduleNextDrop();
+    });
+  </script>
+
+  <!-- === FAQ TOGGLE SCRIPT – WORKING === -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const items = document.querySelectorAll('.faq .item');
+      items.forEach(item => {
+        const heading = item.querySelector('h3');
+        const toggle = heading.querySelector('span');
+        const answer = item.querySelector('p');
+        answer.style.display = 'none';
+        heading.style.cursor = 'pointer';
+        heading.style.userSelect = 'none';
+
+        heading.addEventListener('click', () => {
+          const isActive = item.classList.contains('active');
+          
+          // Close all
+          items.forEach(i => {
+            i.classList.remove('active');
+            i.querySelector('p').style.display = 'none';
+            i.querySelector('span').textContent = '+';
+          });
+
+          // Open current
+          if (!isActive) {
+            item.classList.add('active');
+            answer.style.display = 'block';
+            toggle.textContent = '−';
+          }
+        });
+      });
+    });
+  </script>
+
+  <!-- === FORM SUBMIT SCRIPT === -->
+  <script>
+    document.getElementById('waitlist-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const name = this.querySelector('input[type="text"]').value.trim();
+      const email = this.querySelector('input[type="email"]').value.trim();
+      
+      if (name && email) {
+        alert(`Thank you, ${name}! You’re in the Founders Circle. Your invite is on the way.`);
+        this.reset();
+      } else {
+        alert("Please enter your name and email.");
+      }
+    });
+  </script>
+
+</body>
+</html>
